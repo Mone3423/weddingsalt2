@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
- "scripts": {
-  "preinstall": "npm config set legacy-peer-deps true",
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+  "description": "Luxury wedding website for Uyuni Salt Flats ceremonies.",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "npm config set legacy-peer-deps true",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^14.6.9",
+    "@testing-library/user-event": "^14.4.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^10.16.3",
     "react": "^19.1.0",
@@ -21,6 +23,7 @@
     "react-icons": "^4.12.0",
     "react-modal": "^3.16.1",
     "react-router-dom": "^7.5.3",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^3.1.1"
   },
   "devDependencies": {},
@@ -29,3 +32,4 @@
     "npm": ">=10"
   }
 }
+
