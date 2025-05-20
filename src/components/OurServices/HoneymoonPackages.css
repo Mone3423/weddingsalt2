@@ -1,0 +1,122 @@
+.honeymoon-wrapper {
+  font-family: 'Cinzel', serif;
+  background: #fff;
+}
+
+/* HERO */
+.honeymoon-hero {
+  background-size: cover;
+  background-position: center;
+  padding: 7rem 1.5rem;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3rem 2rem;
+  max-width: 850px;
+  margin: auto;
+  border-radius: 12px;
+}
+
+.hero-overlay h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.tags span {
+  background: #c48db2;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+/* PACKAGE SECTION */
+.honeymoon-package {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background: #fef9f8;
+}
+
+.honeymoon-package.reverse {
+  flex-direction: row-reverse;
+}
+
+.package-img {
+  flex: 1;
+  min-width: 300px;
+}
+
+.package-img img {
+  width: 100%;
+  border-top-left-radius: 50% 30%;
+  border-bottom-right-radius: 20% 50%;
+}
+
+.package-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.package-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #4a3c44;
+}
+
+.package-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.package-content .price {
+  color: #c157a6;
+  font-weight: bold;
+}
+
+/* CTA */
+.honeymoon-cta {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #f5f0f4;
+}
+
+.honeymoon-cta h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #5a3e54;
+}
+
+.cta-btn {
+  padding: 0.7rem 1.5rem;
+  background: #b473a0;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #a35d8f;
+}

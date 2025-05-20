@@ -1,0 +1,47 @@
+.blog-detail {
+  font-family: 'Cinzel', serif;
+  padding: 3rem 2rem;
+  background: #fef9f6;
+  color: #3e2c36;
+  max-width: 800px;
+  margin: auto;
+}
+
+.blog-header {
+  margin-bottom: 2rem;
+}
+
+.blog-header img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.blog-meta h1 {
+  font-size: 2rem;
+  color: #814c72;
+  margin-bottom: 0.5rem;
+}
+
+.blog-meta span {
+  font-size: 0.95rem;
+  color: #a0839e;
+}
+
+.blog-content p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #a85a95;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

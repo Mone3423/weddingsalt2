@@ -1,0 +1,55 @@
+.honeymoon-section {
+    background-image: url('../../assets/photos/honeyhero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 800px;
+  }
+  
+  .honeymoon-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #eee;
+    margin-bottom: 2rem;
+  }
+  
+  .honeymoon-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    padding: 0.7rem 1.4rem;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn.primary {
+    background-color: #b388a0;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn.secondary {
+    background-color: #f3f4f4;
+    color: #333;
+  }
+  

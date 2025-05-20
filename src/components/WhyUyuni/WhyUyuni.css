@@ -1,0 +1,54 @@
+.why-container {
+    padding: 4rem 2rem;
+    background-color: #fefefe;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .why-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .why-title span {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+  }
+  
+  .why-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .why-block.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .why-text {
+    max-width: 500px;
+  }
+  
+  .why-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .why-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+  }
+  
+  .why-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  

@@ -1,0 +1,193 @@
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  padding: 2rem;
+  z-index: 1;
+}
+
+/* Fondo animado (ondas suaves) */
+.hero-bg-motion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-bg-motion::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background:
+    radial-gradient(circle at 30% 30%, #9a1a2b44, transparent 60%),
+    radial-gradient(circle at 70% 70%, #00ced144, transparent 60%),
+    linear-gradient(
+      135deg,
+      #ffcdd2 0%,
+     
+      #d2fdfd 100%
+    );
+  animation: moveBackground 25s linear infinite;
+  opacity: 0.8;
+}
+
+
+
+@keyframes moveBackground {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-50px, -30px);
+  }
+}
+
+/* Imágenes desordenadas */
+.hero-images-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-img {
+  position: absolute;
+  width: 200px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.rotated.top-left {
+  top: 25%;
+  left: 16%;
+  transform: rotate(-5deg);
+}
+.rotated.bottom-left {
+  bottom: 15%;
+  left: 22%;
+  transform: rotate(5deg);
+}
+.rotated.top-right {
+  top: 22%;
+  right: 12%;
+  transform: rotate(-3deg);
+}
+.rotated.bottom-right {
+  bottom: 15%;
+  right: 22%;
+  transform: rotate(4deg);
+}
+
+/* Texto central */
+.hero-center {
+  position: relative;
+  z-index: 2;
+  max-width: 500px;
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+}
+
+.hero-title {
+  font-family: "Almendra SC", serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffeae0;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  min-height: 3rem;
+  margin-bottom: 2rem;
+  color: #f5f5f5;
+  font-family: monospace;
+  white-space: pre;
+}
+
+.hero-button {
+  padding: 0.6rem 1.4rem;
+  background-color: #b99cac;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #a88c5f;
+}
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .hero-center {
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    min-height: auto;
+  }
+
+  .hero-button {
+    font-size: 0.95rem;
+    padding: 0.5rem 1.2rem;
+  }
+
+  /* Reubicar imágenes de fondo */
+  .hero-img {
+    width: 200px;
+    height: 180px;
+  }
+
+  .rotated.top-left {
+    top: 20%;
+    left: 5%;
+  }
+
+  .rotated.bottom-left {
+    bottom: 5%;
+    left: 8%;
+  }
+
+  .rotated.top-right {
+    top: 5%;
+    right: 5%;
+  }
+
+  .rotated.bottom-right {
+    bottom: 20%;
+    right: 8%;
+  }
+
+  /* Reduce intensidad del fondo en móvil */
+  .hero-bg-motion {
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,94 @@
+.about-wrapper {
+  font-family: 'Cinzel', serif;
+  color: #3e2d35;
+}
+
+.about-hero {
+  background-size: cover;
+  background-position: center;
+  padding: 7rem 2rem;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.about-hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: auto;
+  padding: 3rem;
+  border-radius: 12px;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+}
+
+.about-section {
+  padding: 4rem 2rem;
+  background-color: #f9f5f3;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-block {
+  margin-bottom: 3rem;
+}
+
+.about-block h2 {
+  font-size: 2rem;
+  color: #814c72;
+  margin-bottom: 1rem;
+}
+
+.about-block p,
+.about-block ul {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #4a3c44;
+}
+
+.about-block ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+.about-companies {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f3eef1;
+}
+
+.about-companies h2 {
+  font-size: 2rem;
+  color: #6b3e5d;
+  margin-bottom: 2rem;
+}
+
+.company-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.company-card {
+  text-align: center;
+}
+
+.company-card img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.company-card p {
+  font-size: 1rem;
+  color: #4a3c44;
+}

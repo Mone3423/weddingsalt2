@@ -1,0 +1,18 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Aplica Almendra SC a títulos */
+h1, h2, .hero-title, .section-title {
+  font-family: 'Almendra SC', serif;
+}
+
+/* O si prefieres, usa una clase específica */
+.almendra {
+  font-family: 'Almendra SC', serif;
+}

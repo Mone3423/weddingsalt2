@@ -1,0 +1,93 @@
+.services-hero-block {
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 1rem;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.services-hero-block .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.services-hero-block h2 {
+  font-size: 2.5rem;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 1rem;
+}
+
+.services-hero-block p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #af7aa1;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn.alt {
+  background-color: white;
+  color: #333;
+}
+
+.services-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 1.5rem;
+  gap: 2rem;
+  justify-content: center;
+  background-color: #fcf9f7;
+}
+
+.services-list ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  max-width: 500px;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.services-list strong {
+  color: #4a3c44;
+}
+
+.services-desc {
+  background-color: #e4d5e1;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 450px;
+  font-size: 1rem;
+  color: #2e2e2e;
+  line-height: 1.6;
+}
+.fade-in {
+  animation: fadeInUp 0.8s ease-in-out both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
