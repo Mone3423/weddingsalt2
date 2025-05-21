@@ -12,8 +12,8 @@
     "ajv-keywords": "^5.0.0",
     "framer-motion": "^12.12.1",
     "react": "^19.1.0",
+    "react-18-image-lightbox": "^5.1.4",
     "react-dom": "^19.1.0",
-    "react-image-lightbox": "^5.1.4",
     "react-router-dom": "^7.6.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
