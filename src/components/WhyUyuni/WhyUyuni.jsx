@@ -29,7 +29,8 @@ export default function WhyUyuni() {
             in the dry season, every shot will be unforgettable.
           </p>
         </div>
-        <img src={img2} alt="Photo Opportunities" className="why-image" />
+        <img src={img2} alt="Unique opportunities for wedding photography" className="why-image" />
+
       </div>
 
       <div className="why-block">
