@@ -1,6 +1,6 @@
 import './ContactPage.css';
 import { useState } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 export default function ContactPage() {
   const [form, setForm] = useState({
@@ -21,10 +21,10 @@ export default function ContactPage() {
     e.preventDefault();
 
     emailjs.send(
-      'YOUR_SERVICE_ID',     // <-- reemplaza con el tuyo
-      'YOUR_TEMPLATE_ID',    // <-- reemplaza con el tuyo
+      'service_2y2y0qk',     // <-- reemplaza con el tuyo
+      'template_6w2fvgp',    // <-- reemplaza con el tuyo
       form,
-      'YOUR_PUBLIC_KEY'      // <-- reemplaza con el tuyo
+      'RTqHV4710_Yu0dGrN'      // <-- reemplaza con el tuyo
     ).then(
       () => {
         alert('Message sent! 🎉');
