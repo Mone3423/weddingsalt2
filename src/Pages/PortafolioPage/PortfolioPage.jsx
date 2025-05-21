@@ -1,7 +1,7 @@
 import './PortafolioPage.css';
 import { useState } from 'react';
-import Lightbox from 'react-18-image-lightbox';
-import 'react-18-image-lightbox/style.css';
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 import img1 from '../../assets/photos/port1.jpg';
 import img2 from '../../assets/photos/port2.jpg';
 import img3 from '../../assets/photos/port3.jpg';
