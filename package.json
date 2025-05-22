@@ -1,6 +1,7 @@
 {
-  "name": "my-wedding",
-  "version": "0.1.0",
+  
+  "name": "weddingsalt2",
+  "version": "1.0.0",
   "private": true,
   "homepage": ".",
   "dependencies": {
