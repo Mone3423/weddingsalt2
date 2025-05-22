@@ -5,6 +5,7 @@ import img2 from '../../assets/photos/hero2.jpg';
 import img3 from '../../assets/photos/hero3.jpg';
 import img4 from '../../assets/photos/hero4.jpg';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const [displayedText, setDisplayedText] = useState('');
@@ -68,9 +69,9 @@ export default function Hero() {
       >
         <h1 className="hero-title">Salt - Flat - Weddings</h1>
         <p className="hero-subtitle typewriter">{displayedText}</p>
-        <Link rel="stylesheet" href="/ourservices" className="hero-button"/>
-        <button >Learn More</button>
-        <Link/>
+        <Link to="/ourservices" className="hero-button">
+          Learn More
+        </Link>
       </motion.div>
     </section>
   );
