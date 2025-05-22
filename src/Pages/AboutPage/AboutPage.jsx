@@ -77,16 +77,23 @@ export default function AboutUsPage() {
                     <h2>Organized by</h2>
                     <div className="company-logos" >
                         <div className="company-card">
-                            <img src={logo1} alt="Company 1" herf="https://www.alphallama.media/"/>
+
+                            <a href="https://www.alphallama.media/" target="_blank" rel="noopener noreferrer">
+                                <img src={logo1} alt="Organizer 1" />
+                            </a>
+
+
+
                             <p>Alpha Llama </p>
                             <p>[Photo and Video] </p>
                         </div>
                         <div className="company-card">
-                            <img src={logo2} alt="Company 2" herf="https://www.andesamazon.travel"/>
-                            <p>Andes2 Amazon</p>
+                            <a href="https://www.andesamazon.travel/" target="_blank" rel="noopener noreferrer">
+                                <img src={logo2} alt="Organizer 2" />
+                            </a> <p>Andes2 Amazon</p>
                             <p>Travel Agency</p>
                         </div>
-                       
+
                     </div>
                 </section>
             </section>

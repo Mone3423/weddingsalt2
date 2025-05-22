@@ -8,9 +8,14 @@ export default function Footer() {
       <div className="footer-content">
         {/* Logos */}
         <div className="footer-logos">
-          <img src={logo1} alt="Organizer 1" href="https://www.alphallama.media/"/>
-          <img src={logo2} alt="Organizer 2" href="https://www.andesamazon.travel/" />
+          <a href="https://www.alphallama.media/" target="_blank" rel="noopener noreferrer">
+            <img src={logo1} alt="Organizer 1" />
+          </a>
+          <a href="https://www.andesamazon.travel/" target="_blank" rel="noopener noreferrer">
+            <img src={logo2} alt="Organizer 2" />
+          </a>
         </div>
+
 
         {/* Links */}
         <ul className="footer-links">
@@ -23,7 +28,7 @@ export default function Footer() {
 
         {/* Redes */}
         <div className="footer-social">
-         <a href="https://www.instagram.com/andean_love_shots/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.instagram.com/andean_love_shots/" target="_blank" rel="noopener noreferrer">Instagram</a>
           <a href="https://www.facebook.com/profile.php?id=61570954643502" target="_blank" rel="noopener noreferrer">Facebook</a>
           <a href="https://wa.me/71948121" target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </div>
