@@ -1,0 +1,86 @@
+.payment-card {
+  max-width: 500px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  animation: fadeUp 1s ease forwards;
+  opacity: 0;
+}
+
+.payment-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.payment-split {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.split-box {
+  flex: 1;
+}
+
+.amount {
+  font-size: 2rem;
+  color: #9a1a2b;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.divider {
+  width: 1px;
+  height: 60px;
+  background: #ccc;
+  margin: 0 1rem;
+}
+
+.divider-line {
+  height: 1px;
+  background: #ccc;
+  margin: 2rem 0;
+}
+
+.delivery-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.delivery-days {
+  font-size: 3rem;
+  color: #9a1a2b;
+  font-weight: bold;
+}
+
+.delivery-label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #666;
+}
+
+/* Animación */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
