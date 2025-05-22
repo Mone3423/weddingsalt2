@@ -6,6 +6,7 @@ import SectionHoney from '../components/Common/SectionHoney';
 import FaqSection from '../components/Common/faq';
 
 export default function Home() {
+ 
   return (
     <>
       <Hero />
