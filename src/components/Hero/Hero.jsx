@@ -68,8 +68,9 @@ export default function Hero() {
       >
         <h1 className="hero-title">Salt - Flat - Weddings</h1>
         <p className="hero-subtitle typewriter">{displayedText}</p>
-        
-        <button className="hero-button">Learn More</button>
+        <Link rel="stylesheet" href="/ourservices" className="hero-button"/>
+        <button >Learn More</button>
+        <Link/>
       </motion.div>
     </section>
   );

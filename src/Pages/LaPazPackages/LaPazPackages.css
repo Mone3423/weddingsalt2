@@ -6,13 +6,41 @@
 
 .lp-hero {
   height: 80vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lp-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background-size: cover;
   background-position: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: var(--hero-bg);
+  opacity: 0;
+  animation: fadeHero 1s forwards;
+  transition: background-image 1s ease-in-out;
 }
+
+@keyframes fadeHero {
+  to {
+    opacity: 1;
+  }
+}
+
+.lp-hero-text {
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
 
 .lp-hero-text {
   background: rgba(0, 0, 0, 0.6);
@@ -44,19 +72,19 @@
   gap: 2rem;
 }
 
-.lp-images {
-  flex: 1 1 300px;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
+.lp-images img {
+  width: 250px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
 }
 
-.lp-images img {
-  width: 150px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
+.lp-images img:hover {
+  transform: scale(1.05);
 }
+
+
 
 .lp-content {
   flex: 2 1 400px;
