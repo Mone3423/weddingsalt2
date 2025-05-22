@@ -3,9 +3,9 @@ import "./LaPazPackages.css";
 import PaymentInfo from '../../components/PaydmentInfo/PaymentInfo' 
 
 const heroImages = [
-  "/photos/honey.jpg",
-  "/photos/honey.jpg",
-  "/photos/honey.jpg",
+"/images/LAPAZ/WeddingsPhotos3.jpg",
+  "/images/LAPAZ/WeddingsPhotos4.jpg",
+  "/images/LAPAZ/WeddingsPhotos5.jpg",
 ];
 
 const packages = [
@@ -45,6 +45,7 @@ export default function LaPazPackages() {
       <section className="lp-hero" style={{ backgroundImage: `url(${heroImages[currentHero]})` }}>
         <div className="lp-hero-text">
           <h1>WEDDING COLLECTIONS</h1>
+          
           <p>Capture every moment of your wedding in images that last forever.</p>
         </div>
       </section>
