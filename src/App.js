@@ -12,6 +12,7 @@ import TestimonyPage from './Pages/TestimonioPage/TestimonioPage';
 import BlogPage from './Pages/BlogPage/BlogPage';
 import BlogDetailPage from './Pages/BlogDetailPage/BlogDetailPage';
 import  FaQ  from './components/Common/faq';
+import LaPazPackages from './Pages/LaPazPackages/LaPazPackages';
 
 // Puedes agregar más como Gallery, Contact, etc.
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogDetailPage />} />
           <Route path="/faq" element={<FaQ />} />
+          <Route path="/LaPazPackages" element={<LaPazPackages />} />
 
         </Routes>
       </main>
