@@ -75,14 +75,14 @@ export default function AboutUsPage() {
                 </motion.div>
                 <section className="about-companies">
                     <h2>Organized by</h2>
-                    <div className="company-logos">
+                    <div className="company-logos" >
                         <div className="company-card">
-                            <img src={logo1} alt="Company 1" />
+                            <img src={logo1} alt="Company 1" herf="https://www.alphallama.media/"/>
                             <p>Alpha Llama </p>
                             <p>[Photo and Video] </p>
                         </div>
                         <div className="company-card">
-                            <img src={logo2} alt="Company 2" />
+                            <img src={logo2} alt="Company 2" herf="https://www.andesamazon.travel"/>
                             <p>Andes2 Amazon</p>
                             <p>Travel Agency</p>
                         </div>

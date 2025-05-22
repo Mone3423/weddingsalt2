@@ -1,11 +1,14 @@
 // data/BlogData.js
-import img1 from '../../assets/photos/blog1.jpg'
+import img1 from '../../assets/photos/blog1.jpg';
+import img2 from '../../assets/photos/IMG_4842.jpg';
+import img3 from '../../assets/photos/why1.jpg';
+
 const BlogData = [
   {
     slug: 'uyuni-wedding-guide',
     title: 'Plan Your Perfect Wedding in Salar de Uyuni',
     date: 'Dec 31, 2024',
-    image: {img1},
+    image: img1,
     content: [
       "Imagine exchanging vows on a vast white canvas that stretches as far as the eye can see...",
       "• Choose Your Season: Dry (May–Nov) = white. Wet (Dec–Apr) = reflections.",
@@ -20,7 +23,7 @@ const BlogData = [
     slug: 'uyuni-destination-benefits',
     title: 'Why a Destination Wedding in Uyuni is the Perfect Choice',
     date: 'Dec 24, 2024',
-    image: '/assets/blog2.jpg',
+    image: img2,
     content: [
       "Uyuni is surreal. Here's why it's perfect:",
       "1. Natural Wonder for Your Big Day",
@@ -35,7 +38,7 @@ const BlogData = [
     slug: 'uyuni-step-guide',
     title: 'How to Plan the Perfect Uyuni Wedding: A Step-by-Step Guide',
     date: 'Nov 26, 2024',
-    image: '/assets/blog3.jpg',
+    image: img3,
     content: [
       "Step 1: Pick the right season – Dry (classic white) or Wet (mirror effect)",
       "Step 2: Reserve hotels early – Palacio de Sal, Luna Salada",

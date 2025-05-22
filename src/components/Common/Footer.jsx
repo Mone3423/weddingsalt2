@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="footer-content">
         {/* Logos */}
         <div className="footer-logos">
-          <img src={logo1} alt="Organizer 1" />
-          <img src={logo2} alt="Organizer 2" />
+          <img src={logo1} alt="Organizer 1" href="https://www.alphallama.media/"/>
+          <img src={logo2} alt="Organizer 2" href="https://www.andesamazon.travel/" />
         </div>
 
         {/* Links */}

@@ -1,30 +1,33 @@
 import './BlogPage.css';
 import { Link } from 'react-router-dom';
-import img1 from '../../assets/photos/blog1.jpg'
+import img1 from '../../assets/photos/blog1.jpg';
+import img2 from '../../assets/photos/IMG_4842.jpg';
+import img3 from '../../assets/photos/why1.jpg';
 
 const blogs = [
   {
     title: 'Plan Your Perfect Wedding in Salar de Uyuni',
     date: 'Dec 31, 2024',
-    image: {img1},
+    image: img2,
     summary: 'A step-by-step guide to planning the perfect wedding in the world’s largest salt flat, including legal tips, seasons, photography and more.',
     link: '/blog/uyuni-wedding-guide'
   },
   {
     title: 'Why a Destination Wedding in Uyuni is the Perfect Choice',
     date: 'Dec 24, 2024',
-    image: {img1},
+    image: img1,
     summary: 'Explore why Uyuni is a magical destination for couples — from surreal backdrops to exclusive experiences and breathtaking photography.',
     link: '/blog/uyuni-destination-benefits'
   },
   {
     title: 'How to Plan the Perfect Uyuni Wedding: A Step-by-Step Guide',
     date: 'Nov 26, 2024',
-    image: {img1},
+    image: img3,
     summary: 'From selecting the season to adding Bolivian traditions, here’s everything you need to create a dreamy Uyuni wedding.',
     link: '/blog/uyuni-step-guide'
   }
 ];
+
 
 export default function BlogPage() {
   return (
