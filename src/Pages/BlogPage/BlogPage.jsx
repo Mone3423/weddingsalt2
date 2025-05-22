@@ -13,14 +13,14 @@ const blogs = [
   {
     title: 'Why a Destination Wedding in Uyuni is the Perfect Choice',
     date: 'Dec 24, 2024',
-    image: '/assets/photos/hero.jpg',
+    image: {img1},
     summary: 'Explore why Uyuni is a magical destination for couples — from surreal backdrops to exclusive experiences and breathtaking photography.',
     link: '/blog/uyuni-destination-benefits'
   },
   {
     title: 'How to Plan the Perfect Uyuni Wedding: A Step-by-Step Guide',
     date: 'Nov 26, 2024',
-    image: '/assets/photos/hero.jpg',
+    image: {img1},
     summary: 'From selecting the season to adding Bolivian traditions, here’s everything you need to create a dreamy Uyuni wedding.',
     link: '/blog/uyuni-step-guide'
   }
