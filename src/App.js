@@ -13,6 +13,7 @@ import BlogPage from './Pages/BlogPage/BlogPage';
 import BlogDetailPage from './Pages/BlogDetailPage/BlogDetailPage';
 import  FaQ  from './components/Common/faq';
 import LaPazPackages from './Pages/LaPazPackages/LaPazPackages';
+import ScrollToTop from './components/Scrooltotop';
 
 
 // Puedes agregar más como Gallery, Contact, etc.
@@ -20,6 +21,7 @@ import LaPazPackages from './Pages/LaPazPackages/LaPazPackages';
 function App() {
   return (
     <>
+    <ScrollToTop />
       <Navbar />
       <main>
         <Routes>
