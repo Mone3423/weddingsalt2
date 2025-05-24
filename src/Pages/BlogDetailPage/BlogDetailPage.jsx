@@ -1,6 +1,6 @@
 import './BlogDetailPage.css';
 import { useParams, Link } from 'react-router-dom';
-import BlogData from '../data/BlogData';
+import BlogData from '../BlogDetailPage/BlogData';
 
 export default function BlogDetailPage() {
   const { slug } = useParams();
