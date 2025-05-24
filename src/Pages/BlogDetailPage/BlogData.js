@@ -1,10 +1,10 @@
-// src/data/BlogData.js
-import img1 from '../assets/photos/blog1.jpg';
-import img2 from '../assets/photos/IMG_4842.jpg';
-import img3 from '../assets/photos/why1.jpg';
+// data/BlogData.js
+import img1 from '../../assets/photos/blog1.jpg';
+import img2 from '../../assets/photos/IMG_4842.jpg';
+import img3 from '../../assets/photos/why1.jpg';
 
 const BlogData = [
-  {
+{
     slug: 'uyuni-wedding-guide',
     title: 'Your Dream Wedding on the Salt Flats: A Step-by-Step Guide',
     date: 'Dec 31, 2024',
