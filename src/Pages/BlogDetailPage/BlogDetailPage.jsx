@@ -1,6 +1,6 @@
 import './BlogDetailPage.css';
 import { useParams, Link } from 'react-router-dom';
-import BlogData from './BlogData';
+import BlogData from '../data/BlogData';
 
 export default function BlogDetailPage() {
   const { slug } = useParams();
@@ -20,7 +20,7 @@ export default function BlogDetailPage() {
 
       <div className="blog-content">
         {blog.content.map((para, index) => (
-          <p key={index}>{para}</p>
+          <p key={index} dangerouslySetInnerHTML={{ __html: para }}></p>
         ))}
         <Link to="/blog" className="back-link">← Back to Blog</Link>
       </div>
