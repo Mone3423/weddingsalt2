@@ -64,7 +64,7 @@ export default function TestimonyPage() {
                 <h3>Salt Flat Explorer Package</h3>
                 <p>
                     Jonathan and Daekyo chose our Salt Flat Explorer Package for their intimate elopement. Their experience included:
-                </p>[]
+                </p>
                 <ul>
                     <li>A sunrise ceremony on the salt flats</li>
                     <li>Professional photography and videography services</li>

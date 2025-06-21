@@ -6,9 +6,11 @@ import img1 from '../../assets/photos/port1.jpg';
 import img2 from '../../assets/photos/port2.jpg';
 import img3 from '../../assets/photos/port3.jpg';
 import img4 from '../../assets/photos/port4.jpg';
+import img5 from '../../assets/photos/testi2.jpg';
+import img6 from '../../assets/photos/testi5.jpg';
 
 
-const images = [img1, img2, img3,img4];
+const images = [img1, img2, img3,img4, img5,img6];
 
 
 
@@ -55,7 +57,15 @@ export default function PortfolioPage() {
                         <img src={img4} alt="Wedding 1" />
                     </div>
                 </div>
-
+{/* Two verticals */}
+                <div className="portfolio-row two-cols">
+                    <div className="portfolio-img" onClick={() => openLightbox(1)}>
+                        <img src={img5} alt="Wedding 2" />
+                    </div>
+                    <div className="portfolio-img" onClick={() => openLightbox(2)}>
+                        <img src={img6} alt="Wedding 3" />
+                    </div>
+                </div>
 
             </div>
 
