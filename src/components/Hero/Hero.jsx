@@ -67,7 +67,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="hero-title">Salt - Flat - Weddings</h1>
+        <h1 className="hero-title"> Uyuni Weddings</h1>
         <p className="hero-subtitle typewriter">{displayedText}</p>
         <Link to="/services" className="hero-button">
           Start Planning
